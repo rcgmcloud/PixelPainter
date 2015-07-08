@@ -1,0 +1,89 @@
+* {
+  font-family: "Trebuchet MS";
+}
+
+body {
+  /*background-color: gray;*/
+  background-image:
+}
+
+@font-face {
+  font-family: 'Pixel';
+  src: ('font/5x5_pixel.ttf');
+}
+
+#title {
+  width: 225px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#border {
+  margin-right: 0px;
+  float: right;
+  height: 100%;
+  width: auto;
+  position: relative;
+  left: 10px;
+  bottom: 10px;
+}
+
+#toolbarDiv {
+  float: left;
+  width: 225px;
+}
+#drawAreaDiv {
+  margin-left: 230px;
+  height: 100%;
+  width: 100%;
+  background-color: #eeeced;
+  float: left;
+  position: fixed;
+}
+
+h1 {
+  font-family: 'Pixel', Verdana;
+  font-size: 37px;
+  width: 250px;
+  margin-left: 5px;
+
+}
+
+p {
+  margin-bottom: 2px;
+  margin-left: 50px;
+}
+
+input {
+  width: 215px;
+  height: 30px;
+  margin: 2px;
+  font-size: 18px;
+}
+
+button {
+  width: 215px;
+  height: 30px;
+  margin: 2px;
+  margin-top: 5px;
+  font-size: 18px;
+  /*font-family: "Comic Sans MS";*/
+}
+
+#pp-canvas {
+  margin: 10px;
+  /*width: 500px;
+  height: 500px;*/
+}
+
+.square {
+  float: left;
+  /*width: 10px;
+  height: 10px;*/
+  background-color: white;
+  /*border: 1px solid black;*/
+  outline-style: solid;
+  outline-width: 1px;
+  /*outline-color: black;
+  outline-width: 5px;*/
+}
